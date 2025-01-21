@@ -1,0 +1,110 @@
+body{
+    font-family: Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    background-color: white;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+}
+.logo-img{
+    width: 60px;
+    height: auto;
+}
+.navbar a {
+    margin: 0 1rem;
+    color: #333;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.nav-icon{
+    width: 15px;
+    height: auto;
+    margin-right: 0.5rem;
+}
+.navbar a:hover{
+    color: #0088cc;
+}
+.hero{
+    display: flex;
+    
+    justify-content: space-between;
+    padding: 0.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+.hero-text{
+    font-size: 2.5 rem;
+    margin: 0.5rem 0;
+}
+.welcome{
+    font-size: 1.5rem;
+    color:#0088cc;
+    margin-bottom: 0.5 rem;
+}
+.highlight{
+    font-size: 4rem;
+    color: #018CB1 ;
+}
+.description{
+    font-size: 1.4rem;
+    text-align: left;
+    line-height: 1.3;
+   
+}
+.description a {
+    color: #0088cc;
+    text-decoration: none;
+}
+.cta-buttons {
+    margin-top: 10%;
+    display: flex;
+    gap: 1rem;
+}
+.hire-btn {
+    background-color: #008BAB;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px #94cbdc;
+}
+.project-btn {
+    background-color: transparent;
+    color: #0088cc;
+    border: 2px solid #0088cc;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    
+}
+.hero-image {
+    max-width: 33%;
+    border-bottom-left-radius: 224px;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50px 0 50px 50px;
+    
+}
+.hero-image .blue-layer{ 
+     
+    top: -10px;
+    left: -10px;
+    right: 10px;
+    bottom: 10px;
+    background: linear-gradient(135deg, #00aaff, #8edaff);
+    border-radius: 0 0 0px 235px;
+    border:  13px solid #00aaff; 
+   
+}
